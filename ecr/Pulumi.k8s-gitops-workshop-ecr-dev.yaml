@@ -1,0 +1,5 @@
+encryptionsalt: v1:8q2SMts1/Vo=:v1:lTv+CxXl9zNfLuH7:PJkaX8xVvbaKbKwrQ/fBiB22g46MBw==
+config:
+  aws:profile: k8s-gitops-workshop
+  aws:region: ap-southeast-1
+  ecr:postfix: jakpat-mingmongkolmitr
