@@ -9,7 +9,7 @@ metadata:
 data:
   repositories: |
     - name: k8s-gitops-workshop
-      url: git@github.com:SCGWEDOtech/k8s-gitops-workshop.git
+      url: git@github.com:WhatTheFar/k8s-gitops-workshop.git
       sshPrivateKeySecret:
         name: repository-secret
         key: k8sWorkshopDeployKey
