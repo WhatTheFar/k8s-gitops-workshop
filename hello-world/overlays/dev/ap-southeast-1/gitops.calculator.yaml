@@ -1,0 +1,21 @@
+using: kustomize
+kustomize:
+  baseImage: calculator
+  directory: .
+
+commitMessage: >
+  feat(hello/dev/ap-se-1): calculator image {{ .Version }}
+
+pullRequest:
+  title: Deploy calculator service {{ .Version }}
+  branch: deploy/hello-world/calculator-{{ .Version }}
+  baseBranch: main
+  reviewers:
+    users:
+      - WhatTheFar
+  assignees:
+    - WhatTheFar
+
+gitUser:
+  name: GitHub Action
+  email: action@github.com
